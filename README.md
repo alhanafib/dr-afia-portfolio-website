@@ -1,6 +1,6 @@
 # Dr. Zahra Ahmad Afia - Pediatrician Portfolio Website
 
-![Website Preview](assets/preview.jpg)
+![Website Preview](assets/preview.png)
 
 A modern, responsive, and professional portfolio website for Dr. Zahra Ahmad Afia, a board-certified pediatrician with over 10 years of experience. This website showcases her services, qualifications, patient testimonials, and provides an easy way for patients to book appointments.
 
