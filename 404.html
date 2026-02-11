@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Dr. Zahra Ahmad Afia</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="error-page">
+    <div class="error-container">
+        <div class="error-content">
+            <div class="error-icon" data-aos="zoom-in">
+                <i class="fas fa-stethoscope"></i>
+                <div class="error-number">404</div>
+            </div>
+            
+            <h1 data-aos="fade-up">Page Not Found</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Sorry, the page you are looking for doesn't exist or has been moved.</p>
+            <p data-aos="fade-up" data-aos-delay="200">Let's get you back to the healthy stuff!</p>
+            
+            <div class="error-actions" data-aos="fade-up" data-aos-delay="300">
+                <a href="index.html" class="btn btn-primary ripple-effect">
+                    <i class="fas fa-home"></i> Back to Home
+                </a>
+                <a href="index.html#contact" class="btn btn-secondary ripple-effect">
+                    <i class="fas fa-calendar-check"></i> Book Appointment
+                </a>
+            </div>
+            
+            <div class="error-search" data-aos="fade-up" data-aos-delay="400">
+                <p>Or try searching for what you need:</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <button type="button" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="error-footer">
+            <p>&copy; 2023 Dr. Zahra Ahmad Afia. All rights reserved.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 1000,
+                once: true
+            });
+        });
+    </script>
+</body>
+</html>

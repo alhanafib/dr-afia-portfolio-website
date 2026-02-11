@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Dr. Zahra Ahmad Afia | Pediatrician | Child Health Specialist</title>
+    <meta name="description" content="Dr. Zahra Ahmad Afia is a board-certified pediatrician with over 10 years of experience specializing in child healthcare, preventive medicine, and developmental pediatrics.">
+    <meta name="keywords" content="pediatrician, child doctor, pediatric care, child health, Dr. Zahra Ahmad Afia, pediatric specialist">
+    <meta name="author" content="Dr. Zahra Ahmad Afia">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Dr. Zahra Ahmad Afia | Pediatrician | Child Health Specialist">
+    <meta property="og:description" content="Board-certified pediatrician with over 10 years of experience in child healthcare.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://drzahraafia.com">
+    <meta property="og:site_name" content="Dr. Zahra Ahmad Afia">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle -->
+    <div class="theme-toggle">
+        <button id="theme-toggle" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Dr. Zahra Afia</span>
+                    <span class="logo-subtitle">Pediatrician</span>
+                </div>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user-md"></i> About</a></li>
+                <li><a href="#services" class="nav-link"><i class="fas fa-heartbeat"></i> Services</a></li>
+                <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#testimonials" class="nav-link"><i class="fas fa-comments"></i> Testimonials</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-badge">
+                        <i class="fas fa-heart"></i> Pediatric Specialist
+                    </div>
+                    <h1 class="hero-title">Dr. Zahra Ahmad <span class="highlight">Afia</span></h1>
+                    <p class="hero-subtitle">Board-certified pediatrician with over 10 years of experience in child healthcare, preventive medicine, and developmental pediatrics.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary ripple-effect">
+                            <i class="fas fa-calendar-check"></i> Book Appointment
+                        </a>
+                        <a href="#about" class="btn btn-secondary ripple-effect">
+                            <i class="fas fa-user-md"></i> Learn More
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-text">Happy Patients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-text">Emergency Care</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="image-wrapper">
+                        <div class="floating-elements">
+                            <div class="floating-element el1"><i class="fas fa-heart"></i></div>
+                            <div class="floating-element el2"><i class="fas fa-stethoscope"></i></div>
+                            <div class="floating-element el3"><i class="fas fa-baby"></i></div>
+                        </div>
+                        <!-- Doctor image placeholder - in a real site, this would be an actual image -->
+                        <div class="doctor-avatar">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                    <p class="section-subtitle">Dedicated to the health and well-being of children</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right">
+                        <div class="image-frame">
+                            <!-- Doctor image placeholder -->
+                            <div class="doctor-avatar-large">
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text" data-aos="fade-left">
+                        <h3>Compassionate Pediatric Care</h3>
+                        <p>I am Dr. Zahra Ahmad Afia, a board-certified pediatrician with a passion for providing comprehensive healthcare to infants, children, and adolescents. My approach combines medical expertise with a warm, compassionate bedside manner to ensure both children and parents feel comfortable and informed.</p>
+                        
+                        <p>With over a decade of experience, I specialize in preventive care, developmental screenings, immunizations, and managing acute and chronic childhood illnesses. I believe in building lasting relationships with families to support the healthy growth and development of every child.</p>
+                        
+                        <div class="qualifications">
+                            <div class="qualification">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <h4>Board Certified</h4>
+                                    <p>American Board of Pediatrics</p>
+                                </div>
+                            </div>
+                            <div class="qualification">
+                                <i class="fas fa-hospital"></i>
+                                <div>
+                                    <h4>Hospital Affiliation</h4>
+                                    <p>Children's Medical Center</p>
+                                </div>
+                            </div>
+                            <div class="qualification">
+                                <i class="fas fa-language"></i>
+                                <div>
+                                    <h4>Languages</h4>
+                                    <p>English, বাংলা, Arabic</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-primary ripple-effect">
+                            <i class="fas fa-phone-alt"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">My <span class="highlight">Services</span></h2>
+                    <p class="section-subtitle">Comprehensive pediatric care for children of all ages</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="flip-left" data-aos-duration="800">
+                        <div class="service-icon">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                        <h3>Newborn Care</h3>
+                        <p>Comprehensive care for newborns including wellness exams, feeding guidance, and developmental assessments.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Well-baby visits</li>
+                            <li><i class="fas fa-check-circle"></i> Feeding consultations</li>
+                            <li><i class="fas fa-check-circle"></i> Developmental screening</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <h3>Immunizations</h3>
+                        <p>Complete vaccination schedules to protect your child from preventable diseases according to CDC guidelines.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Routine vaccinations</li>
+                            <li><i class="fas fa-check-circle"></i> Travel immunizations</li>
+                            <li><i class="fas fa-check-circle"></i> Flu shots</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Well-Child Visits</h3>
+                        <p>Regular check-ups to monitor growth, development, and address any health concerns at every stage.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Growth monitoring</li>
+                            <li><i class="fas fa-check-circle"></i> Developmental milestones</li>
+                            <li><i class="fas fa-check-circle"></i> Nutrition counseling</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-allergies"></i>
+                        </div>
+                        <h3>Allergy & Asthma</h3>
+                        <p>Diagnosis and management of childhood allergies, asthma, eczema, and other allergic conditions.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Allergy testing</li>
+                            <li><i class="fas fa-check-circle"></i> Asthma management</li>
+                            <li><i class="fas fa-check-circle"></i> Treatment plans</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="400">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Developmental Pediatrics</h3>
+                        <p>Assessment and support for developmental delays, learning disabilities, ADHD, and behavioral issues.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> ADHD evaluation</li>
+                            <li><i class="fas fa-check-circle"></i> Autism screening</li>
+                            <li><i class="fas fa-check-circle"></i> Learning assessments</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="500">
+                        <div class="service-icon">
+                            <i class="fas fa-ambulance"></i>
+                        </div>
+                        <h3>Emergency Care</h3>
+                        <p>24/7 availability for urgent pediatric concerns and coordination with emergency services when needed.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Urgent consultations</li>
+                            <li><i class="fas fa-check-circle"></i> Emergency coordination</li>
+                            <li><i class="fas fa-check-circle"></i> After-hours care</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Education & Experience -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Education & <span class="highlight">Experience</span></h2>
+                    <p class="section-subtitle">My professional journey in pediatric medicine</p>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-date">2018 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior Pediatrician</h3>
+                            <h4>Children's Medical Center</h4>
+                            <p>Leading pediatric care team, supervising residents, and implementing new child health initiatives. Special focus on preventive care and childhood obesity management.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-date">2013 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>Pediatric Specialist</h3>
+                            <h4>City General Hospital</h4>
+                            <p>Provided comprehensive pediatric care in both outpatient and inpatient settings. Developed hospital's pediatric asthma management program.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-date">2010 - 2013</div>
+                        <div class="timeline-content">
+                            <h3>Pediatrics Residency</h3>
+                            <h4>University Medical Center</h4>
+                            <p>Completed residency in Pediatrics with honors. Special training in neonatal intensive care and pediatric emergency medicine.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-date">2006 - 2010</div>
+                        <div class="timeline-content">
+                            <h3>Doctor of Medicine (M.D.)</h3>
+                            <h4>University of Medical Sciences</h4>
+                            <p>Graduated with distinction. President of Pediatrics Student Association. Research on childhood vaccination adherence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Patient <span class="highlight">Testimonials</span></h2>
+                    <p class="section-subtitle">What parents say about my care</p>
+                </div>
+                
+                <div class="testimonials-slider">
+                    <div class="testimonial" data-aos="zoom-in">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Dr. Afia has been our pediatrician for 5 years. She's patient, knowledgeable, and truly cares about our children's well-being. She always takes time to answer all our questions.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Mother of two</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>When my son was diagnosed with asthma, Dr. Afia created a comprehensive management plan that has dramatically improved his quality of life. We're so grateful for her expertise.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Father of a 7-year-old</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>As first-time parents, we had so many questions. Dr. Afia guided us through every step with patience and kindness. Her advice on breastfeeding was especially helpful.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Fatima Rahman</h4>
+                                <p>Mother of a newborn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                    <p class="section-subtitle">Schedule an appointment or ask a question</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Visit My Clinic</h3>
+                                <p>123 Children's Health Plaza<br>Suite 405<br>Medical District, City 12345</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Me</h3>
+                                <p>+1 (555) 123-4567<br>Emergency: +1 (555) 987-6543</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Me</h3>
+                                <p>contact@drzahraafia.com<br>appointments@drzahraafia.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Office Hours</h3>
+                                <p>Mon-Fri: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Emergency: 24/7 on call</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" target="_blank" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form" data-aos="fade-left">
+                        <form id="appointment-form">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder="Your Phone Number">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <select id="service" required>
+                                    <option value="" disabled selected>Select Service</option>
+                                    <option value="newborn">Newborn Care</option>
+                                    <option value="immunization">Immunizations</option>
+                                    <option value="well-child">Well-Child Visit</option>
+                                    <option value="allergy">Allergy & Asthma</option>
+                                    <option value="developmental">Developmental Pediatrics</option>
+                                    <option value="emergency">Emergency Consultation</option>
+                                </select>
+                                <i class="fas fa-stethoscope"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea id="message" rows="5" placeholder="Your Message / Additional Information"></textarea>
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary ripple-effect">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">Dr. Zahra Afia</span>
+                            <span class="logo-subtitle">Pediatrician</span>
+                        </div>
+                    </a>
+                    <p>Compassionate pediatric care for your child's health and development.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>My Services</h3>
+                    <ul>
+                        <li><a href="#services">Newborn Care</a></li>
+                        <li><a href="#services">Immunizations</a></li>
+                        <li><a href="#services">Well-Child Visits</a></li>
+                        <li><a href="#services">Allergy & Asthma</a></li>
+                        <li><a href="#services">Developmental Pediatrics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Health Tips Newsletter</h3>
+                    <p>Subscribe for monthly child health tips and updates.</p>
+                    <form id="newsletter-form">
+                        <div class="newsletter-input">
+                            <input type="email" placeholder="Your Email" required>
+                            <button type="submit" class="btn-newsletter" aria-label="Subscribe">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Dr. Zahra Ahmad Afia. All rights reserved.</p>
+                <p>Design & Developed by <a href="https://mohammadullah.netlify.app/"><b>Mohammadullah Al Hanafi</b></a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Initialize AOS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100
+            });
+        });
+    </script>
+</body>
+</html>
